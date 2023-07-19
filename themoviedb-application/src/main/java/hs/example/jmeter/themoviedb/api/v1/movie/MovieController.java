@@ -29,9 +29,10 @@ public class MovieController {
         List<String> content = null;
         Map<String,Object> map = null;
         String s = null;
+        byte[] bytes = null;
         try {
             Path path = Paths.get(resource.getURI());
-            byte[] bytes = Files.readAllBytes(path);
+            bytes = Files.readAllBytes(path);
             s= new String(bytes);
 
 //            content = Files.readAllLines(path);
@@ -41,6 +42,7 @@ public class MovieController {
         } catch (Exception e) {
             log.error("Error" , e);
         }
+        log.info(new String(bytes));
         return map;
 //        return s;
     }
