@@ -1,9 +1,7 @@
 <h1 align="left">Hi 👋, I'm Hosuk</h1>
-<h3 align="left">from seoul</h3>
 
 
-
-<h3 align="left">JMeter</h3>
+<h3 align="left">Apache JMeter</h3>
 <p align="left">
 </p>
 
