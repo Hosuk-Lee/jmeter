@@ -1,0 +1,50 @@
+{
+  "Movie Cast Information Request" : {
+    "transaction" : "Movie Cast Information Request",
+    "sampleCount" : 10000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 532.785299999999,
+    "medianResTime" : 525.0,
+    "minResTime" : 2.0,
+    "maxResTime" : 2281.0,
+    "pct1ResTime" : 872.0,
+    "pct2ResTime" : 1024.0,
+    "pct3ResTime" : 1361.9899999999998,
+    "throughput" : 126.73307479786075,
+    "receivedKBytesPerSec" : 55.53226752797632,
+    "sentKBytesPerSec" : 16.43166097159912
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 20000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 380.6603999999987,
+    "medianResTime" : 329.0,
+    "minResTime" : 2.0,
+    "maxResTime" : 2281.0,
+    "pct1ResTime" : 773.0,
+    "pct2ResTime" : 896.0,
+    "pct3ResTime" : 1257.9900000000016,
+    "throughput" : 252.06059536712627,
+    "receivedKBytesPerSec" : 23651.68988167724,
+    "sentKBytesPerSec" : 31.23279391053109
+  },
+  "Movie Cast List Request" : {
+    "transaction" : "Movie Cast List Request",
+    "sampleCount" : 10000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 228.53549999999964,
+    "medianResTime" : 191.0,
+    "minResTime" : 3.0,
+    "maxResTime" : 1147.0,
+    "pct1ResTime" : 515.0,
+    "pct2ResTime" : 657.0,
+    "pct3ResTime" : 959.0,
+    "throughput" : 126.03665145824405,
+    "receivedKBytesPerSec" : 23597.655166872526,
+    "sentKBytesPerSec" : 14.893002760202668
+  }
+}
